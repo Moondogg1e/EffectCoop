@@ -1,3 +1,3 @@
 # https://moondogg1e.github.io/EffectCoop/views/index.html
 
-Multypage landing EffectCoop (Grid/Flex)
+Simple responsive multypage landing "EffectCoop" (Grid/Flex)
