@@ -1,0 +1,86 @@
+.nav-links {
+  background-color: #eb3842;
+}
+
+header {
+  background-color: #eb3842;
+}
+
+.gablielle-card {
+  display: flex;
+}
+
+.gablielle-card h4 {
+  text-transform: uppercase;
+}
+
+.gablielle-card img {
+  max-width: 75px;
+  height: auto;
+  margin-right: 30px;
+}
+
+.music-section {
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.music-card {
+  border: 1px solid black;
+  border-radius: 10px;
+  min-height: 360px;
+  max-width: 554px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  padding: 30px 0;
+}
+
+.music-card > * {
+  margin: 0 20px;
+}
+
+.music-card > div > * {
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 1020px) {
+  .music-section {
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .music-card {
+    flex-direction: column;
+  }
+}
+
+.music-links {
+  padding: 30px 0;
+  background-color: #eeecec;
+  width: 100%;
+
+}
+
+.music-links>div:first-child {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+.music-link-card {
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 10px;
+  /* max-width: 134px; */
+}

@@ -1,0 +1,138 @@
+.nav-links{
+    background-color: #2DC67C;
+}
+.green-text{
+    color: #2DC67C;
+}
+
+header{
+    background-color: #2DC67C;
+}
+
+
+/*Second Section */
+
+.second-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 525px;
+    flex-wrap: wrap;
+    margin: 100px 0;
+}
+
+.second-section-text{
+    max-width: 440px;
+    padding: 20px 2%;
+}
+
+.second-section-text h1{
+    margin-bottom: 120px;
+    letter-spacing: 2px;
+}
+
+.green-logo{
+    float: right;
+    margin-right: 30%;
+
+}
+
+
+.second-img{
+    max-width: 543px;
+    width: 100%;
+    height: auto;
+}
+
+/* Third Section */
+
+.cards-section{
+
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 20px 3%;
+    /* padding: 2% 2%; */
+    max-width: 400px;
+    width: 100%;
+    min-height: 270px;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all .3s ease-in;
+    border-radius: 10px;
+}
+
+.card img{
+    max-width: 70px;
+    height: auto;
+    margin: 10px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card1{
+    background-color: #FFD426;
+}
+
+.card2{
+    background-color: #2DC67C;
+}
+
+.card3{
+    background-color: #00AC86;
+}
+
+/* Fourth section */
+
+.fourth-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px auto 0;
+}
+
+.fourth-section-text{
+    max-width: 470px;
+    margin: 0 5%;
+}
+
+.fourth-section-text p{
+    font-size: 14px;
+}
+
+.fourth-section-img{
+    /* flex-grow: 2; */
+    width: 100%;
+    flex-basis: 100%;
+    height: auto;
+}
+
+.btns .btn{
+    margin: 5px 0;
+    white-space: nowrap;
+}
+
+
+@media screen and (max-width:1200px){
+    .fourth-section{
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+}
+
+
+
+
+  
+
