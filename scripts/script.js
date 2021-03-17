@@ -20,7 +20,7 @@ if (slider !== null) {
 	function mobileSlider() {
 		if (window.innerWidth <= 1100 && slider.dataset.mobile == 'false') {
 			mySwiper = new Swiper(slider, {
-				slidesPerView: 'auto',
+				slidesPerView: 2,
 				// loop: true,
 				centeredSlides: true,
 				loop: true,
