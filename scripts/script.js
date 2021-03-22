@@ -20,10 +20,10 @@ if (slider !== null) {
 	function mobileSlider() {
 		if (window.innerWidth <= 1100 && slider.dataset.mobile == 'false') {
 			mySwiper = new Swiper(slider, {
-				// slidesPerView: 2,
+				slidesPerView: 'auto',
 				// loop: true,
-				centeredSlides: true,
-				loop: true,
+				// centeredSlides: true,	
+				loop: false,
 				slideClass: 'card',
 
 			});
